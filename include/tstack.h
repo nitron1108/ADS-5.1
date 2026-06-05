@@ -7,7 +7,7 @@
 template<typename ElementType, int Capacity>
 class TStack {
  public:
-  TStack(){
+  TStack() {
     topIndex = -1;
   }
 
@@ -45,4 +45,4 @@ class TStack {
   int topIndex;
 };
 
-#endif  
+#endif  // INCLUDE_TSTACK_H_
