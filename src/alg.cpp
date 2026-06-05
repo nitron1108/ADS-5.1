@@ -13,7 +13,7 @@ static int getPriority(char op) {
 std::string infx2pstfx(const std::string& inf) {
   TStack<char, 100> operators;
   std::ostringstream result;
-  for (size_t i=0; i<inf.length();i++) {
+  for (size_t i = 0; i < inf.length(); i++) {
     char ch = inf[i];
     if (std::isdigit(ch)) {
       while (i < inf.size() && std::isdigit(inf[i])) {
